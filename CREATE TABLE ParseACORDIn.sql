@@ -1,0 +1,12 @@
+CREATE TABLE 
+  ParseACORDIn (
+    PDFFileName       TEXT,
+    PageNum           INTEGER,
+    LeftMP            INTEGER,
+    LowerMP           INTEGER,
+    RightMP           INTEGER,
+    UpperMP           INTEGER,
+    WidthMP           INTEGER,
+    HeightMP          INTEGER,
+    VCumulativeMP     INTEGER,
+    PDFString         TEXT)
